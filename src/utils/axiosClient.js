@@ -14,7 +14,7 @@ let base_url = 'http://localhost:4000/'
 console.log('client - ',process.env.NODE_ENV);
 
 if(process.env.NODE_ENV === 'production'){
-    base_url = process.REACT_APP_SERVER_BASE_URL
+    base_url = process.env.REACT_APP_SERVER_BASE_URL
 }
 
 export  const axiosClient = axios.create({
