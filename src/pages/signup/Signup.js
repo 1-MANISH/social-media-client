@@ -38,7 +38,7 @@ function Signup() {
   return (
     <div className='Signup'>
         <div className="signup-box">
-            <h2 className="heading">Sing Up</h2>
+            <h2 className="heading">Sign Up</h2>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name">Name</label>
                 <input 
